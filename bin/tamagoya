@@ -2,6 +2,6 @@
 
 var tamagoya = require('../lib/tamagoya');
 
-tamagoya().then(function (menus) {
-  menus.forEach(function (m) { console.log(m); });
+tamagoya().then(menus => {
+  menus.forEach(menu => console.log(menu));
 });
