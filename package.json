@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine613)",
-  "license": "MIT",
+  "license": "Unlicense",
   "engines": {
     "node": ">=4.0.0"
   },
