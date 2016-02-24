@@ -8,6 +8,9 @@
   },
   "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine613)",
   "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "dependencies": {
     "cheerio": "^0.20.0",
     "co": "^4.6.0",
