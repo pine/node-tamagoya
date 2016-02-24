@@ -6,16 +6,30 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine613)",
-  "license": "Unlicense",
-  "engines": {
-    "node": ">=4.0.0"
-  },
   "dependencies": {
     "cheerio": "^0.20.0",
     "co": "^4.6.0",
     "got": "^6.1.1",
     "lodash.defaults": "^4.0.1",
     "lodash.zip": "^4.0.0"
-  }
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine613"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine613/node-tamagoya"
+  },
+  "bugs": {
+    "url": "https://github.com/pine613/node-tamagoya/issues"
+  },
+  "homepage": "https://github.com/pine613/node-tamagoya",
+  "license": "Unlicense"
 }
