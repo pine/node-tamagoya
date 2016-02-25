@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const xo = require('gulp-xo');
+const ava = require('gulp-ava');
 
 gulp.task('check', ['lint', 'test']);
 
@@ -8,4 +9,7 @@ gulp.task('lint', () =>
     .pipe(xo())
 );
 
-gulp.task('test', []);
+gulp.task('test', () =>
+  gulp.src('test/**/*_test.js')
+    .pipe(ava())
+);
