@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var tamagoya = require('../lib/tamagoya');
+const tamagoya = require('../lib/tamagoya');
 
 tamagoya().then(menus => {
   menus.forEach(menu => console.log(menu));

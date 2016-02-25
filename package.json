@@ -4,7 +4,7 @@
   "description": "Fetch tamagoya menus",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp check"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
@@ -14,9 +14,15 @@
     "lodash.zip": "^4.0.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-xo": "^0.8.0"
   },
   "engines": {
     "node": ">=4.0.0"
+  },
+  "xo": {
+    "space": 2,
+    "esnext": true
   },
   "author": {
     "name": "Pine Mizune",
