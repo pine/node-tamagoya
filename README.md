@@ -1,4 +1,4 @@
-tamagoya
+tamagoya [![Build Status](https://travis-ci.org/pine613/node-tamagoya.svg?branch=master)](https://travis-ci.org/pine613/node-tamagoya)
 --------
 
 ## Usage
