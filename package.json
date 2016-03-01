@@ -6,6 +6,8 @@
   "scripts": {
     "test": "gulp check"
   },
+  "bin": "./bin/tamagoya",
+  "files": [ "bin", "lib", "*.js", "*.md" ],
   "dependencies": {
     "cheerio": "^0.20.0",
     "co": "^4.6.0",
