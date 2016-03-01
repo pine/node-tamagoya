@@ -6,12 +6,12 @@ const tamagoya = require('../lib/tamagoya');
 co(function *() {
   const menus = yield tamagoya();
   menus.forEach(menu => {
-    console.log('Date   : ' + menu.date.toString());
-    console.log('Calorie: ' + menu.calorie);
+    console.log(`Date   : ${menu.date.toString()}`);
+    console.log(`Calorie: ${menu.calorie}`);
     console.log('Menus  : ');
 
-    menu.menus.forEach(function (m) {
-      console.log(' - ' + m);
+    menu.menus.forEach(m => {
+      console.log(` - ${m}`);
     });
 
     console.log('');
