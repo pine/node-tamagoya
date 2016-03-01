@@ -6,6 +6,13 @@ tamagoya
 [![Dependency Status](https://img.shields.io/david/pine613/node-tamagoya.svg?style=flat-square)](https://david-dm.org/pine613/node-tamagoya)
 [![devDependency Status](https://img.shields.io/david/dev/pine613/node-tamagoya.svg?style=flat-square)](https://david-dm.org/pine613/node-tamagoya#info=devDependencies)
 
+Fetching [Tamagoya](http://www.tamagoya.co.jp/) menus of this week.
+
+## Getting Started
+
+```
+$ npm install --save tamagoya
+```
 
 ## Usage
 
