@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-ava": "^0.8.0",
-    "ava": "^0.11.0",
+    "gulp-ava": "^0.9.0",
+    "ava": "^0.12.0",
     "gulp-xo": "^0.8.0",
     "proxyquire": "^1.7.4",
     "timekeeper": "0.0.5"
