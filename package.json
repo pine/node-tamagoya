@@ -33,15 +33,15 @@
   "author": {
     "name": "Pine Mizune",
     "email": "pinemz@gmail.com",
-    "url": "https://github.com/pine613"
+    "url": "https://github.com/pine"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pine613/node-tamagoya"
+    "url": "https://github.com/pine/node-tamagoya"
   },
   "bugs": {
-    "url": "https://github.com/pine613/node-tamagoya/issues"
+    "url": "https://github.com/pine/node-tamagoya/issues"
   },
-  "homepage": "https://github.com/pine613/node-tamagoya",
+  "homepage": "https://github.com/pine/node-tamagoya",
   "license": "Unlicense"
 }
