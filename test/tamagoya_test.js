@@ -10,7 +10,7 @@ const tamagoya = proxyquire('../lib/tamagoya', { got });
 test('defaultOpts', t => {
   got.impl = function (url, opts) {
     t.is(url, 'http://www.tamagoya.co.jp/menu.html');
-    t.ok(opts.headers['user-agent'].match(/^Mozilla/));
+    t.truthy(opts.headers['user-agent'].match(/^Mozilla/));
     return Promise.resolve({ body: '' });
   };
 
@@ -40,7 +40,7 @@ test('parse', t => {
   return tamagoya().then(list => {
     const menus = list.shift();
     t.is(menus.calorie, '340kcal');
-    t.same(menus.menus, ['shrimp', 'stew', 'salad']);
+    t.deepEqual(menus.menus, ['shrimp', 'stew', 'salad']);
     t.is(menus.date.getFullYear(), 2016);
     t.is(menus.date.getMonth(), 1);
     t.is(menus.date.getDate(), 22);
